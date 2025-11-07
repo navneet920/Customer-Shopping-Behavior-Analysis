@@ -7,13 +7,6 @@ It includes Exploratory Data Analysis (EDA), SQL-based insights, and an interact
 
 The goal is to extract meaningful insights, build visual representations, and communicate findings effectively to stakeholders.
 
-📂 Dataset
-
-Source: Public/open-source dataset (or specify: e.g., Kaggle / Company Data)
-
-Format: CSV / Excel
-
-Size: ~X rows × Y columns
 
 Content: Contains features such as demographics, transactions, and performance metrics.
 
@@ -21,20 +14,21 @@ Objective: Analyze patterns, identify trends, and derive actionable insights.
 
 🧰 Tools & Technologies
 Category	Tools Used
-Programming	Python (Pandas, NumPy, Matplotlib, Seaborn)
-Database	MySQL / PostgreSQL / SQL Server
+Programming	Python (Pandas)
+Database	MySQL 
 Visualization	Power BI
 Reporting	Gamma Presentation
-Environment	Jupyter Notebook / VS Code
+Environment	Jupyter Notebook 
 Version Control	Git & GitHub
-🚀 Project Steps
-1. Data Loading
+# 🚀 Project Steps 
+
+## 1. Data Loading
 
 Imported the dataset into Python using Pandas.
 
 Verified file encoding and handled missing values during import.
 
-2. Exploratory Data Analysis (EDA)
+## 2. Exploratory Data Analysis (EDA)
 
 Understood dataset structure (shape, types, unique values).
 
@@ -42,7 +36,7 @@ Performed descriptive statistics and distribution plots.
 
 Identified outliers and correlations using heatmaps and boxplots.
 
-3. Data Cleaning
+## 3. Data Cleaning
 
 Handled missing and duplicate records.
 
@@ -50,9 +44,9 @@ Standardized data types and formats.
 
 Applied transformations for better consistency and usability.
 
-4. SQL Analysis
+## 4. SQL Analysis
 
-Loaded cleaned data into MySQL/PostgreSQL/SQL Server.
+Loaded cleaned data into MySQL.
 
 Executed analytical queries such as:
 
@@ -64,19 +58,17 @@ Aggregations (SUM, AVG, COUNT, GROUP BY)
 
 Filtering and joining across multiple tables
 
-5. Power BI Dashboard
+## 5. Power BI Dashboard
 
 Connected cleaned SQL data to Power BI.
 
 Built an interactive dashboard including:
 
-KPIs (e.g., Total Revenue, Avg. Growth Rate)
-
 Trend and category analysis visuals
 
 Filters for region, time, and category
 
-6. Report & Presentation
+## 6. Report & Presentation
 
 Gamma Report: Summarized findings, insights, and recommendations.
 
@@ -98,9 +90,9 @@ Time-series visualization for trend analysis.
 
 Category and region comparison charts.
 
-(You can attach a dashboard screenshot here)
+![dashboard](Screenshot (52).png)
 
-🧾 Results & Insights
+# 🧾 Results & Insights
 
 Identified key performance trends and data-driven patterns.
 
@@ -108,7 +100,7 @@ Provided actionable recommendations to improve business strategy.
 
 Enhanced decision-making through interactive visuals and reports.
 
-⚙️ How to Run
+# ⚙️ How to Run
 
 Clone the Repository
 
@@ -140,7 +132,7 @@ Update the data source connection if needed.
 
 # View the Report
 
-Open the Gamma presentation link (provided in /reports folder or README).
+Open the Gamma presentation :-Customer-Shopping-behavior-Analysis.pptx .
 
 # 🧠 Future Improvements
 
@@ -152,7 +144,7 @@ Add predictive analytics using machine learning models.
 
 # 👤 Author
 
-Navneet Kumar
+## Navneet Kumar
 
 📧 [navneetgautam920@gmail.com
 ]
